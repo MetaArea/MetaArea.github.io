@@ -903,7 +903,7 @@
           <button class="close-modal" onclick="closeModal('loginModal')" aria-label="Close">&times;</button>
         </div>
         <div class="modal-body">
-          <form>
+          <form onsubmit="event.preventDefault(); alert('Thank you for your interest!');">
             <div class="form-group">
               <label for="login-email">Email Address</label>
               <input type="email" id="login-email" required>
@@ -926,7 +926,7 @@
         </div>
         <div class="modal-body">
           <p style="margin-bottom: 1.5rem;">MetaArea is an exclusive, invitation-only community. To join, you must have a valid invitation code from an existing member.</p>
-          <form>
+          <form onsubmit="event.preventDefault(); alert('Thank you for your interest! Your invitation request has been submitted.');">
             <div class="form-group">
               <label for="invite-code">Invitation Code</label>
               <input type="text" id="invite-code" placeholder="Enter your invite code" required>
@@ -1012,17 +1012,17 @@
           <h3>3. User Conduct</h3>
           <p>You agree to use MetaArea in a manner consistent with all applicable laws and regulations. You will not post content that is illegal, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, or otherwise objectionable. You will not engage in spam, harassment, or any behavior that disrupts the community.</p>
           <h3>4. Intellectual Property</h3>
-          <p>All content on MetaArea, including text, graphics, logos, and software, is the property of MetaArea Technologies Inc. or its content suppliers and is protected by international copyright laws. Users retain ownership of content they post but grant MetaArea a license to use, modify, and display that content.</p>
+          <p>All content on MetaArea, including text, graphics, logos, and software, is the property of MetaArea or its content suppliers and is protected by international copyright laws. Users retain ownership of content they post but grant MetaArea a license to use, modify, and display that content.</p>
           <h3>5. Disclaimer of Warranties</h3>
           <p>MetaArea is provided "as is" without warranties of any kind, either express or implied. We do not guarantee that the service will be uninterrupted, secure, or error-free. Any content or advice found on MetaArea should not be considered professional financial, legal, or investment advice.</p>
           <h3>6. Limitation of Liability</h3>
-          <p>MetaArea Technologies Inc. shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the service.</p>
+          <p>MetaArea shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the service.</p>
           <h3>7. Account Termination</h3>
           <p>We reserve the right to suspend or terminate your account at any time, with or without notice, for conduct that we believe violates these Terms of Use or is harmful to other users, us, or third parties, or for any other reason.</p>
           <h3>8. Modifications</h3>
           <p>We reserve the right to modify these terms at any time. We will notify users of any material changes via email or through the platform.</p>
           <h3>9. Governing Law</h3>
-          <p>These Terms of Use shall be governed by and construed in accordance with the laws of the jurisdiction in which MetaArea Technologies Inc. operates.</p>
+          <p>These Terms of Use shall be governed by and construed in accordance with the laws of the jurisdiction in which MetaArea operates.</p>
           <h3>10. Contact</h3>
           <p>For questions regarding these terms, contact us at legal@metaarea.github.io.</p>
         </div>
