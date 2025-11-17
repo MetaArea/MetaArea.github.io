@@ -1161,15 +1161,6 @@
           document.getElementById('cookieConsent').style.display = 'none';
         }
       });
-      document.addEventListener('DOMContentLoaded', function() {
-        const forms = document.querySelectorAll('form');
-        forms.forEach(form => {
-          form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('This is a demo. Form submission is disabled.');
-          });
-        });
-      });
       document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
           const activeModals = document.querySelectorAll('.modal.active');
